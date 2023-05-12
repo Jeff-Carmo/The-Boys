@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: url(imagens/bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 48px;
+}
+
+header .logoprime{
+    width: 150px;
+
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.navigation ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+}
+
+.navigation ul li a:hover{
+    border-bottom: 2px solid #138ecc;
+
+}
+
+.navigation .busca{
+    width: 22px;
+    cursor: pointer;
+    filter: invert(1);
+
+}
+
+/* main index */
+
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50em;
+    margin-top: 1.5em;
+
+}
+
+.main1 section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5em;
+}
+
+.main1 section .logoboys{
+width: 35em;
+margin: 3em 0;
+
+}
+
+.main1 section .buttonbox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonbox .btn1{
+    padding: 20px 45px;
+    background-color: #425265;
+    color: #fff;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+}
+
+.buttonbox .btn1:hover{
+    background: #0f79af;
+
+}
+
+.buttonbox .btn1:focus{
+    background: #0f79af;
+}
+
+main section .texto1{
+    color: #fff;
+    line-height: 22px;
+}
+
+.texto1{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.buttonbox2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #0f79af;
+    padding: 10px 45px;
+    margin: 9px 30px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 4px solid #fff;
+    font-size: 25px;
+    gap: 15px;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.buttonbox2:hover{
+    background: #138ecc;
+
+}
+
+.buttonbox2 .play{
+    width: 1.4em;
+    filter: invert(1);
+}
+footer{
+    color: #fff;
+}
+
