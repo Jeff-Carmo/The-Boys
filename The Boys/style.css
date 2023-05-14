@@ -8,12 +8,14 @@
     text-decoration: none;
 }
 
-body{
+#body1{
     background: url(imagens/bg.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     
+    
 }
+
 
 header{
     display: flex;
@@ -40,9 +42,11 @@ header .logoprime{
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
     transition: all .6s;
+    letter-spacing: 1px;
 }
 
 .navigation ul li a:hover{
+    color: #FEDC1A;
     border-bottom: 2px solid #138ecc;
 
 }
@@ -73,8 +77,8 @@ header .logoprime{
 }
 
 .main1 section .logoboys{
-width: 35em;
-margin: 3em 0;
+width: 31em;
+margin: 1em 0;
 
 }
 
@@ -139,5 +143,122 @@ main section .texto1{
 }
 footer{
     color: #fff;
+}
+
+/* Fim Index */
+
+/* Personagens.html */
+
+.header2{
+    background: url(imagens/os7.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 25px 48px 545px 25px;
+    border-bottom: 4px solid red;
+    
+}
+
+.theboyslogo2{
+    background-color: black;
+    border-bottom: 4px solid red;
+    
+}
+
+.theboyslogo2 img{
+    display: block;
+    margin: 0 auto;
+     
+}
+
+.conteudo2{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   background: linear-gradient( to left,  #000000 0%,  #847e7edb 85%);
+   border-bottom: 2px solid black;
+    
+}
+
+.conteudo2 img{
+    width: 450px;
+    height: 350px;
+}
+
+.conteudo2 h2{
+    text-align: center;
+    color: #FEDC1A;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.textobox2{
+    margin-top: 30px;
+}
+
+.texto2{
+    text-indent: 50px;
+    text-align: justify;
+    color: #fff;
+    padding-left: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+    
+}
+
+.personagens1{
+    display: block;
+    margin: 20px auto;
+}
+
+.personagens1 img{
+    border: 3px solid black;
+}
+
+.thesevenlogo{
+    background-color: black;
+    border-top: 4px solid #3B6B7C ;
+    border-bottom: 4px solid #3B6B7C;
+}
+
+
+.thesevenlogo img{
+    display: block;
+    margin: 0 auto;
+     
+}
+
+.conteudo3{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   background: linear-gradient( to left,  #000000 0%,  #3B6B7C 50%);
+   border-bottom: 2px solid black;
+    
+}
+
+.conteudo3 img{
+    width: 350px;
+    height: 350px;
+}
+
+.conteudo3 h2{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+/* fim personagens.html */
+
+
+/* Extras.html */
+
+.body3{
+    background: url(imagens/the-boys-season-2-homelander-4k-52.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0, 0,0.5);
 }
 
